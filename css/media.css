@@ -1,0 +1,107 @@
+/* Extra small devices  */
+@media (max-width: 575.98px) { 
+    .top_text {
+        padding-left: 0;
+        padding-top: 60px;
+    }
+    .nav li a {
+        font-size: 15px;
+        font-weight: 900;
+    }
+    .home_text h1 {
+        font-size: 55px;
+    }
+    .home_text p {
+        font-size: 15px;
+    }
+    .home_text button {
+        font-size: 10px;
+    }
+    .home {
+        padding: 60px 0;
+    }
+    .about_text h2 {
+        font-size: 30px;
+    }
+    .abt_logo i {
+        font-size: 12px;
+        padding: 8px;
+    }
+    .about_text p {
+        font-size: 10px;
+        padding-top: 40px;
+    }
+    .about_text button {
+        font-size: 15px;
+    }
+    .service_head h2 {
+        font-size: 40px;
+        padding-bottom: 0px;
+        margin-bottom: 25px;
+    }
+    .assisstant_heading h2 {
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+    /* .assistant_intro {
+        padding-left: 0px;
+    } */
+    .contact_heading h2 {
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+    .contact_info_txt h3 {
+        font-size: 25px;
+    }
+    .contact_info_txt p {
+        font-size: 12px;
+    }
+    .assistant_intro {
+        padding-bottom: 10px;
+    }
+ }
+
+ @media (min-width: 576px) and (max-width: 767.98px) {
+    .top_text {
+        padding-left: 0;
+        padding-top: 60px;
+    }
+    .nav li a {
+        font-size: 23px;
+        font-weight: 900;
+    }
+    .home_text h1 {
+        font-size: 75px;
+    }
+    .home_text p {
+        font-size: 25px;
+    }
+    .home_text button {
+    font-size: 15px;
+}
+.home {
+    padding: 170px 0;
+}
+.about_text h2 {
+    font-weight: 900;
+    font-size: 68px;
+}
+.about_text p {
+    font-size: 25px;
+    color: #6a6a6a;
+}
+
+.assistant_intro {
+    padding-left: 100px;
+    padding-bottom: 21px;
+}
+.card-title {
+    font-size: 21px;
+}
+ }
+ @media (min-width: 768px) and (max-width: 991.98px) { 
+    .top_text {
+        padding-top: 65px;
+        padding-left: 0;
+    }
+ }

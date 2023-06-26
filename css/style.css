@@ -1,0 +1,387 @@
+.top{
+    background-color: #fff;
+    padding: 35px 0 ;
+}
+.top_img{
+   position: absolute;
+ 
+}
+.top_text{
+    position: relative;
+    padding-left: 412px;
+}
+
+.top_text1 img{
+    position:absolute;
+    width: 50px;
+    height: 50px;
+}
+.top_text1 i{
+    position: absolute;
+    padding-top: 5px;
+    color: #fff;
+    font-size: 25px;
+    padding-left: 20px;
+    text-align: center;
+    padding: 13px;
+    
+}
+.top_text_heading{
+    position: relative;
+    padding-left: 60px;
+    padding-top: 8px;
+}
+.top_text_heading h6{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    font-weight: 700;
+    color: #6a6a6a;
+}
+.top_text_heading p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 10px;
+    font-weight: 400;
+    color: #6a6a6a;
+}
+.nav li a{
+    color: #6a6a6a;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+.nav li a:hover{
+    color: black ;
+}
+.home{
+    background-image:url(../images/top-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 230px 0 ;
+    position: relative;
+}
+.home::before{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(#272525,#242423);
+    top: 0;
+    bottom: 0;
+    opacity:0.5;
+}
+.home_text{
+    text-align: center;
+}
+.home_text h1{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 900;
+    font-size: 100px;
+    color: rgb(84 54 57);
+   
+    text-shadow: -1px -1px 0 #fff, 1px -1px 0 #fff, -1px 1px 0 #fff, 1px 1px 0 #fff;
+}
+.home_text p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 50px;
+    color: rgb(242, 242, 240);
+}
+.home_text button{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient( rgb(243, 152, 136),rgb(250, 84, 54));
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 5px;
+}
+
+.about{
+    padding: 100px 0 50px 0;
+    background-color: azure;
+}
+.about_text{
+    padding-top: 15px;
+}
+.about_text h2{
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    font-size: 80px;
+    color: rgb(76, 41, 109);
+}
+.abt_logo{
+    position: absolute;
+    border-radius: 50%;
+    
+}
+
+.abt_logo i{
+   
+    font-size: 25px;
+    color: white;
+    background-color: tomato;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.about_text p{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color:#6a6a6a;
+    padding-top: 60px;
+
+}
+
+.about_text button{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient( rgb(243, 152, 136),rgb(250, 84, 54));
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 5px;
+}
+
+.about_footer{
+    padding-top: 30px;
+}
+.card-title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 23px;
+    color: #242f51; 
+}
+.card-text{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #616368;
+}
+.service{
+    padding: 50px 0;
+}
+.service_head h2{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #9244bb;
+    font-size: 60px;
+    text-transform: capitalize;
+    font-weight: 900;
+    letter-spacing: 3px;
+    padding-bottom: 10px;
+    margin-bottom: 45px;
+}
+.service_center{
+    border: 2px solid gray;
+    text-align: center;
+    margin: 0 0 30px 0;
+    
+}
+.service_center img{
+text-align: center;
+height: 150px;
+width: 150px;
+}
+.service_center h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: #242f51; 
+}
+.service_center p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: #616368;
+}
+.service_center button{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient( rgb(243, 152, 136),rgb(250, 84, 54));
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 13px;
+}
+
+.service_center_text{
+    margin-top: -22px;
+}
+
+.assisstant{
+    padding: 50px 0;
+    background: rgba(128, 128, 128, 0.209);
+}
+
+.assisstant_heading h2{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #473550;
+    font-size: 60px;
+    text-transform: capitalize;
+    font-weight: 900;
+    letter-spacing: 3px;
+    padding-bottom: 10px;
+    margin-bottom: 45px;
+}
+
+.assistant_logo a i{
+    font-size: 12px;
+    color: white;
+    background-color: tomato;
+    padding: 5px;
+    border-radius: 50%;
+}
+.assistant_intro{
+    padding-left: 30px;
+}
+
+.contact{
+    padding: 50px 0;
+    background: rgba(234, 226, 226, 0.692);
+}
+.contact_heading h2{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    color: #7e3535;
+    font-size: 60px;
+    text-transform: capitalize;
+    font-weight: 900;
+    letter-spacing: 3px;
+    padding-bottom: 10px;
+    margin-bottom: 45px;
+}
+.cntact_info{
+    height: 100%;
+    width: 100%;
+    background-color: #4f376e;
+    padding: 20px;
+}
+
+.hr_color{
+    background-color: wheat;
+    text-decoration: dotted;
+}
+
+.contact_info_txt h3{
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 30px;
+    text-transform: capitalize;
+    font-weight: 900;
+    letter-spacing: 3px;
+}
+
+.contact_info_txt p{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    color: white;
+    letter-spacing: 2px;
+}
+
+
+.form button {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #ffffff;
+    background-color: #1ecbc6;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    border-color: #1ecbc6;
+}
+#support {
+    position: relative;
+    background: #893f57;
+    text-align: center;
+}
+
+#support h1 {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 30px 0;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+#footer {
+    position: relative;
+    background: #222222;
+    padding: 0 0 30px 0;
+}
+
+#footer .copyright {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 300;
+    text-align: center;
+    padding-top: 30px;
+}
+#footer .copyright a {
+    font-family: 'Poppins', sans-serif;
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+#booking{
+    background-color: #c2b7b79b;
+    padding: 50px;
+}
+
+.section_header h3{
+    font-family: 'Poppins', sans-serif;
+    color: #0e2145;
+    font-size: 30px;
+    font-weight: 800;
+    letter-spacing: 2px;
+}
+.control-group label{
+    font-family: 'Poppins', sans-serif;
+    color: #0e2145;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 5px 5px;
+
+}
+
+.button button{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    color: #ffffff;
+    background-color: #1ecbc6;
+    padding: 15px 30px;
+    text-transform: uppercase;
+    border-color: #1ecbc6;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+/* 
+font-family: 'Nunito Sans', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Send Flowers', cursive;
+font-family: 'Work Sans', sans-serif; 
+*/
